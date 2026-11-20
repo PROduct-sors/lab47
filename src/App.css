@@ -9,3 +9,6 @@ body { margin: 0; font-family: sans-serif; }
 .post-card { display: flex; justify-content: space-between; padding: 12px 0; border-bottom: 1px solid #e2e8f0; }
 .tag { color: #0284c7; font-size: 14px; }
 .footer { padding: 12px; text-align: center; background: #f1f5f9; }
+.loading-bar { height: 3px; background: #38bdf8; animation: loading 1s infinite; }
+@keyframes loading { from { width: 0; } to { width: 100%; } }   
+.user-bar { display: flex; gap: 12px; align-items: center; }
